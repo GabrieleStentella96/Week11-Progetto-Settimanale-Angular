@@ -1,0 +1,21 @@
+.container {
+  background-image: url(../../../img/xmen.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  min-width: 100%;
+  height: 780px;
+
+  .txt, .txt2 {
+    width: 300px;
+    height: auto;
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-left: 5rem;
+  }
+
+}
+
+
+

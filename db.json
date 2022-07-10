@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "email": "g.notturno@mailinator.com",
+      "password": "$2a$10$3HMMMsK8qXkjvwuSfLC7SuFwB9rCd7BRidTIbHErdBHRcoo6vrHby",
+      "firstname": "Gufo",
+      "lastname": "Notturno II",
+      "id": 1
+    },
+    {
+      "email": "p.parker@example.com",
+      "password": "$2a$10$2HwpkQcqoYBZE4Fxl/.BAeTz.CqMYeP1ktouszRp5lsT2N4r/BJx6",
+      "firstname": "Peter",
+      "lastname": "Parker",
+      "id": 2
+    },
+    {
+      "email": "b.wayne@example.com",
+      "password": "$2a$10$fTEikh4JdcsHdFbKpEf2wOWR/FITmnrh3WFWOVJobK0uBYV6MIOHy",
+      "firstname": "Bruce",
+      "lastname": "Wayne",
+      "id": 3
+    },
+    {
+      "email": "c.yesterday@mailinator.com",
+      "password": "$2a$10$gnyvXzzF5J419C6NBB/t7uB1ikq5Z00eQ.B5Z.OyfTaxCgpf8S4Da",
+      "firstname": "Captain",
+      "lastname": "Yesterday",
+      "id": 4
+    },
+    {
+      "email": "p.prisoner@mailinator.com",
+      "password": "$2a$10$ueQ1JyEW9LO4oRmXeMc47.5hWehDK3e.VlAQk6W0255p12wRLVC5O",
+      "firstname": "Pri Pri",
+      "lastname": "Prisoner",
+      "id": 5
+    },
+    {
+      "email": "incredible@example.com",
+      "password": "$2a$10$cgThniX5ds/pVb.2fxAnZO7YGU2VUhggzI66tumQhogfM49Aw8A6a",
+      "firstname": "Mr.",
+      "lastname": "Incredible",
+      "id": 6
+    },
+    {
+      "email": "j.smith@gmail.com",
+      "password": "$2a$10$c2/uI2B3KLV4A7sCQmd5VuEA4eO/1sPc8TYATHzBpjRURwqnD.hPO",
+      "firstname": "john",
+      "lastname": "smith",
+      "id": 7
+    },
+    {
+      "email": "lrossi@gmail.com",
+      "password": "$2a$10$vDjhDuXguZQvqi7QkKeAcO3l2M3ZnSnMh7C9RqXHYkXpPmNyQc1tS",
+      "firstname": "luca ",
+      "lastname": "rossi",
+      "id": 8
+    }
+  ]
+}

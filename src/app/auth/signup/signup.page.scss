@@ -1,0 +1,28 @@
+
+.field-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.box-container {
+  width: 50%;
+  margin: 2rem auto;
+  border: 1px solid #0a0000;
+  padding: 2rem;
+}
+
+button {
+  background-color: #1808fb!important;
+}
+
+mat-stepper {
+  background-image: url(../../../img/justiceleague.jpg);
+  margin-bottom: 1rem;
+  min-width: 100%;
+  height: 780px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  
+}

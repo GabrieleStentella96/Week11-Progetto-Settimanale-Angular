@@ -1,0 +1,72 @@
+.navbar-nav a {
+  text-decoration: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 20px;
+  color: #ffde06;
+}
+
+a.line {
+  position: relative;
+}
+
+a.line:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffde06;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+a.line:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.menu {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+  gap: 10px !important;
+  margin: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffde06;
+  position: relative;
+}
+
+.menu a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffde06;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu a:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+mat-icon {
+  color: #ffde06;
+}
+/*# sourceMappingURL=nav.component.css.map */

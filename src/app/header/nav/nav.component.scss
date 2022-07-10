@@ -1,0 +1,66 @@
+$login-color-primary: #ffde06;
+
+.navbar-nav a {
+  text-decoration: none;
+  justify-content: space-between;
+  margin-right: 20px;
+  color: #ffde06;
+}
+
+a.line
+{
+    position: relative;
+}
+
+a.line:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: $login-color-primary;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.line:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.menu {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+  margin: 10px;
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffde06;
+    position: relative;
+  }
+
+  a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $login-color-primary;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  a:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+}
+
+mat-icon {
+  color: #ffde06;
+}
+
