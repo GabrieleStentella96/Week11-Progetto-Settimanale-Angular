@@ -1,6 +1,6 @@
 <mat-stepper [linear]="true" #stepper>
-  <mat-step [stepControl]="firstFormGroup">
-    <form [formGroup]="firstFormGroup">
+  <mat-step [stepControl]="FormGroup1">
+    <form [formGroup]="FormGroup1">
       <ng-template matStepLabel>Fill out your Name</ng-template>
       <div class="field-container">
         <mat-form-field appearance="fill">
@@ -17,8 +17,8 @@
       </div>
     </form>
   </mat-step>
-  <mat-step [stepControl]="secondFormGroup" label="Fill out your Email and Password">
-    <form [formGroup]="secondFormGroup" (ngSubmit)="onSubmit()">
+  <mat-step [stepControl]="FormGroup2" label="Fill out your Email and Password">
+    <form [formGroup]="FormGroup2" (ngSubmit)="onSubmit()">
       <div class="field-container">
         <mat-form-field appearance="fill">
           <mat-label>Email</mat-label>

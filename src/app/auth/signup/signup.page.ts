@@ -14,11 +14,11 @@ export class SignupPage implements OnInit {
   @ViewChild('f') form!: NgForm;
   error = undefined;
 
-  firstFormGroup = this._formBuilder.group({
+  FormGroup1 = this._form.group({
     firstname: ['', Validators.required],
     lastname: ['', Validators.required],
   });
-  secondFormGroup = this._formBuilder.group({
+  FormGroup2 = this._form.group({
     email: ['', Validators.required],
     password: ['', Validators.required],
   });
@@ -28,17 +28,17 @@ export class SignupPage implements OnInit {
   constructor(
     private authService: AuthService,
     private router: Router,
-    private _formBuilder: FormBuilder) { }
+    private _form: FormBuilder) { }
 
   ngOnInit(): void {
   }
 
   onSubmit() {
     let temp: ISignupData = {
-      firstname : this.firstFormGroup.value.firstname || '',
-      lastname : this.firstFormGroup.value.lastname || '',
-      email : this.secondFormGroup.value.email || '',
-      password : this.secondFormGroup.value.password || '',
+      firstname : this.FormGroup1.value.firstname || '',
+      lastname : this.FormGroup1.value.lastname || '',
+      email : this.FormGroup2.value.email || '',
+      password : this.FormGroup2.value.password || '',
     }
     this.authService.signup(temp).subscribe(
       resp => {

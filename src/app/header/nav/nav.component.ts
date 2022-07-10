@@ -19,14 +19,4 @@ export class NavComponent implements OnInit {
     this.authService.logout();
   }
 
-  // isLoggedIn() {
-  //   if (JSON.parse(localStorage.getItem('isAuthenticated')!).auth_token == null) {
-  //     this.isLoggedin = false;
-  //     return this.isLoggedin;
-  //   }
-  //   else {
-  //     return true;
-  //   }
-  // }
-
 }

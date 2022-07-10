@@ -14,12 +14,12 @@ export class LoginPage implements OnInit {
   error = undefined;
   hide = true;
 
-  loginForm = this._formBuilder.group({
+  loginForm = this._form.group({
     email: ['', Validators.required],
     password: ['', Validators.required],
   });
 
-  constructor(private authService: AuthService, private router: Router,private _formBuilder: FormBuilder) { }
+  constructor(private authService: AuthService, private router: Router,private _form: FormBuilder) { }
 
   ngOnInit(): void {
     console.log("Sono in ngOnInit");
